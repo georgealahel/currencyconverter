@@ -47,7 +47,7 @@ flag.innerHTML = "";
         world.innerHTML="";
         result.innerHTML = "";
         optionCurr.onclick = function () { 
-          var URL = 'https://api.fastforex.io/fetch-one?from=' + currency + '&to=USD&api_key=44f6199b5e-09d8d7c00a-rq6qpw' 
+          var URL = 'https://api.fastforex.io/fetch-one?from=' + currency + '&to=USD&api_key=a0c1710b13-68c2e0cb5b-rr1d33' 
           fetch(URL)
                 .then(response => response.json())
                 .then(response => {
