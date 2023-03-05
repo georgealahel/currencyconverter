@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        background-color: rgba(255, 255, 255, 0.808);
+        }
+
+        #image {
+        margin: auto;
+        max-width: 600px;
+        }
+
+        h1 {
+          text-align: center;
+        }
+        #choice {
+        max-width: 600px;
+        text-align: center; 
+        background-color: rgb(248, 247, 235); 
+        border: 5px dashed rgb(129, 123, 123);
+        margin: auto;
+        padding: 20px;
+        }
+        p {
+         width: 200px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 14px;
+         border: 1px solid black;
+         font-weight: bold;
+         display: block;
+         margin: auto;
+         padding: 5px;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div id="choice">
+    <h1>Country Currencies:</h1>
+       <select id="selectCountry">
+        <option value="">Select a country</option>
+    </select>
+    <span id="buttonCurrency"></span>
+    <h2></h2>
+    <div id="flag"></div>
+    <div id="result"></div>
+    <h2></h2>
+    <div id=world><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GDJ-World-Flags-Globe.svg/2093px-GDJ-World-Flags-Globe.svg.png" width="300px"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
