@@ -43,7 +43,7 @@
 <body>
     <div id="choice">
     <h1>Country Currencies:</h1>
-       <select id="selectCountry">
+       <select id="selectCountry" onchange="if(this.value=='') location.reload();">
         <option value="">Select a country</option>
     </select>
     <span id="buttonCurrency"></span>
